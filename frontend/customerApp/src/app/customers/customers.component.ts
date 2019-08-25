@@ -20,7 +20,7 @@ export class CustomersComponent implements OnInit {
   model: any = {};
   customers: Customer[] = [];
 
- 
+ //comment
  // customers$: Observable<Customer[]>;
   private searchTerms = new Subject<string>();
   constructor(private customerService: CustomerService , private router: Router) { }
